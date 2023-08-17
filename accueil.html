@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>L'intelligence artificielle</title>
+    <link href="accueilStyle.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="media/ai.png">
+    <script type="text/javascript" src="accueil.js"></script>
+</head>
+
+<body>
+    <div id="fixe">
+        <nav>
+            <ol>
+                <li class="left">
+                    <a href="accueil.html"><img src="media/ai.png" alt="website logo"></a>
+                </li>
+                <li><a href="tesla.html">Tesla</a></li>
+                <li><a href="spacex.html">Space X</a></li>
+                <li><a href="openai.html">Open AI</a></li>
+                <li><a href="neuralink.html">Neuralink</a></li>
+                <li class="right"><a href="more.html">More</a></li>
+            </ol>
+        </nav>
+        <p id="dateHeure">Erreur: votre navigateur ne supporte pas JavaScript</p>
+    </div>
+
+    <div id="part1">
+        <video autoplay muted loop class="videoloop"> <source src="media/bg video.mp4" type="video/mp4" alt="illustration AI background">Votre navigateur ne supporte pas HTML5</video>
+        <h1>L'intelligence artificielle</h1>
+        <a href="#middle"><img src="media/scroll.gif" alt="scroll arrow"></a>
+    </div>
+
+    <div id="middle">
+        <h2>Présentation</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’intelligence artificielle est une technologie vastement utilisée et destinée à tous types d’appareil. Elle utilise le <dfn data-info="technique de mémorisation de comportement qui stocke une grande quantitée de donnée dans un cerveau virtuel"
+                class="important">machine learning</dfn> pour imiter une forme d’intelligence réelle et son utilisation n’a pas de limites. En effet, on peut la retrouver dans des logiciels de retouche photo, comme dans des drones militaires pour repérer
+            des cibles ou encore dans des voitures se conduisant seules.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L’intelligence artificielle d’aujourd’hui ne sera surement pas celle de demain: ces dernières années, on est passé du simple <dfn data-info="outil permettant de simuler une conversation textuelle ou vocale avec un humain"
+                class="important">chatbot</dfn> à une utilisation pour des décisions décisives dans des domaines importants comme le domaine médical. Ainsi, on ne peut qu’imaginer ce que le futur nous réserve ! <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ce site
+            web sera l’occasion pour vous de découvrir l’IA de manière approfondie, et cela, à travers les innovations d’<dfn data-info="né le 20 juin 1971, c’est un ingénieur, entrepreneur, chef d'entreprise et milliardaire sud-africain" class="important">Elon Musk</dfn>            . Effectivement, vous pourrez découvrir l’utilisation que l’on fait de cette technologie dans les voitures Tesla, les fusées SpaceX, les logiciels OpenAI, et les implants Neuralink. <br>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;Nous répondrons donc
+            aux problématiques suivantes: En quoi la technologie d’Intelligence artificielle joue un rôle de plus en plus important dans notre société? En quoi Elon Musk baigne dans le sujet et l’incorpore dans une multitude de ses entreprises?
+            <br><br>
+            <p class="salutations">Mettez-vous à l’aise et bon voyage !</p>
+            <p class="nom">Sami :)</p>
+        </p>
+        <a href="#part3"><img src="media/scroll.gif" alt="scroll arrow"></a>
+    </div>
+
+    <div id="part3">
+        <div class="diaporama">
+            <!-- les différentes diapos (pluiseurs pour avoir l'effet diapo)-->
+            <a href="tesla.html">
+                <div class="diapos fade">
+                    <img class="icon1 move" src="media/tesla logo icon.png">
+                    <img class="logo1 move" src="media/tesla logo.png">
+                </div>
+            </a>
+            <a href="spacex.html">
+                <div class="diapos fade">
+                    <img class="icon2 move" src="media/spacex logo icon.png">
+                    <img class="logo2 move" src="media/spacex logo.png">
+                </div>
+            </a>
+            <a href="openai.html">
+                <div class="diapos fade">
+                    <img class="icon3 move" src="media/openai icon.png">
+                    <img class="logo3 move" src="media/openai logo.png">
+                </div>
+            </a>
+            <a href="neuralink.html">
+                <div class="diapos fade">
+                    <img class="logo4 move" src="media/neuralink logo.png">
+                </div>
+            </a>
+            <!-- boutons suivant/precedent-->
+            <button class="precedent" onclick="changeDiapo(-1)">&#10094;</button>
+            <button class="suivant" onclick="changeDiapo(1)">&#10095;</button>
+
+            <!-- cercles de diapo-->
+
+        </div>
+        <div class="cercles">
+            <span class="dot actif" onclick="cetteDiapo(1)"></span>
+            <span class="dot" onclick="cetteDiapo(2)"></span>
+            <span class="dot" onclick="cetteDiapo(3)"></span>
+            <span class="dot" onclick="cetteDiapo(4)"></span>
+        </div>
+        <p class="desc">Tesla, constructeur d’automobiles électriques</p>
+        <p class="desc">SpaceX, constructeur de fusée et développeur de projets d’exploration spatiale</p>
+        <p class="desc">OpenAI, entreprise spécialisée dans le développement de technologies d’intelligence artificielle</p>
+        <p class="desc">Neuralink, développeur d’implants cérébraux d’interfaces neuronales directes</p>
+        <a href="#part1 "><img class="scroll" src="media/scroll.gif " alt="scroll arrow "></a>
+    </div>
+
+</body>
+
+</html>
