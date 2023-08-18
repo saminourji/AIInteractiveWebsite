@@ -292,13 +292,13 @@ dfn:hover::after {
 #part3 img.left,
 #part3 video.left {
     box-sizing: border-box;
-    border-left: #005189 solid 10px;
+    border-left: #A894AD solid 10px;
 }
 
 #part3 img.right,
 #part3 video.right {
     box-sizing: border-box;
-    border-left: #005189 solid 10px;
+    border-left: #A894AD solid 10px;
 }
 
 #part3 p {
