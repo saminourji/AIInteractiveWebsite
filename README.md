@@ -1,4 +1,4 @@
-# ElonCompaniesInteractiveWebsite
+# Elon Companies Interactive Website
 🤓 I created this website in 2021 as part of a school project.  \
 🎯 Chose to talk about the most interesting companies Elon Musk owns and/or is/was involved in (rip OpenAI).  \
 ✅ Prereq to understanding the content is a decent level in French ... or access to Google Translate. Planning on correcting the many grammatical errors. \
